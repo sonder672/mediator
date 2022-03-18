@@ -3,12 +3,9 @@ package EjemploPractico;
 import PatronMediador.IMediador;
 import PatronMediador.Participante;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Maria extends Participante {
 
-public class SalaChat extends Participante {
-
-    public SalaChat(IMediador mediador) {
+    public Maria(IMediador mediador) {
         super(mediador);
     }
 

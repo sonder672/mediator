@@ -1,7 +1,7 @@
 package Test;
 
 import EjemploPractico.Jose;
-import EjemploPractico.SalaChat;
+import EjemploPractico.Maria;
 import PatronMediador.Mediador;
 
 public class MediadorTest {
@@ -13,10 +13,10 @@ public class MediadorTest {
 
         //Instancia de participantes
         Jose participanteJose = new Jose(mediador);
-        SalaChat salaChat = new SalaChat(mediador);
+        Maria participanteMaria = new Maria(mediador);
 
         mediador.agregarParticipantes(participanteJose);
-        mediador.agregarParticipantes(salaChat);
+        mediador.agregarParticipantes(participanteMaria);
 
         participanteJose.ejecutar("hola");
     }
